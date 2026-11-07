@@ -1,0 +1,13 @@
+# FastSpeech2 project dependencies
+# See English/requirements.txt and Telugu/requirements.txt for the upstream language environment lists.
+numpy
+scipy
+librosa
+PyYAML
+torch
+torchaudio
+tgt
+matplotlib
+pandas
+g2p-en
+soundfile
