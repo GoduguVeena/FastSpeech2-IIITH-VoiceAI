@@ -1,0 +1,13 @@
+{
+  "language": "Telugu",
+  "training_records": 1168,
+  "manual_review_records": 12,
+  "duration_candidate_records": 1156,
+  "ctc_model": "anuragshas/wav2vec2-large-xlsr-53-telugu",
+  "ctc_model_loaded": true,
+  "ctc_processor_loaded": true,
+  "alignment_method": "CTC character-level alignment",
+  "duration_labels_finalized": false,
+  "mfa_telugu_acoustic_model_available": false,
+  "timestamp_utc": "2026-11-07T16:27:30.789633+00:00"
+}

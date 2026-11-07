@@ -1,0 +1,46 @@
+# Audio and generated feature data
+**/wavs/
+**/wavs_22050/
+**/raw_data/
+**/preprocessed_data/
+*.npy
+*.wav
+*.flac
+
+# Model checkpoints and downloaded archives
+**/checkpoints/
+**/hifigan/*.zip
+*.pth
+*.pt
+*.ckpt
+*.pth.tar
+*.zip
+*.tar
+*.gz
+
+# Ignore dataset CSVs by default
+English/data/*.csv
+Telugu/data/*.csv
+
+# Allow only reviewed, path-independent manifests
+!English/data/train_manifest.csv
+!English/data/val_manifest.csv
+!Telugu/data/train_manifest.csv
+!Telugu/data/val_manifest.csv
+!Telugu/data/telugu_alignment_review.csv
+!Telugu/data/train_alignment_batch_001.csv
+!Telugu/data/train_alignment_batch_002.csv
+!Telugu/data/train_alignment_batch_003.csv
+
+# Local paths, secrets and temporary files
+.env
+.venv/
+*.backup
+*.before_*
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Downloaded English alignment dictionaries
+English/data/english_us_arpa_*.dict
